@@ -139,20 +139,35 @@ ans
 <br/>
 <br/>
 <br/>
+<font color="white" size="+6" face="Arial">Contact Me</font>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
+<div class="container">
+  <form action="mailto:levcool@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+
+    <font color="white" face="Arial"><label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  </font>
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+
+
 <br/>
 <br/>
 </section>
